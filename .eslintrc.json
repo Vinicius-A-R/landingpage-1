@@ -21,11 +21,11 @@
     "react/prop-types": "off",
     "import/prefer-default-export": "off",
     "camelcase": "off",
-    // "no-unused-vars": "off",
     "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
     "no-param-reassign": "off",
     "no-underscore-dangle": "off",
     "react-hooks/rules-of-hooks": "warn",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "global-require": "off"
   }
 }
