@@ -29,7 +29,7 @@ button {
 
 ul{
   list-style: none;
-  padding-left: 0;
+  padding: 0;
 }
 `;
 
@@ -42,5 +42,24 @@ export const Container = styled.div`
 
   @media screen and (max-width: 991px) {
     padding: 0 32px;
+  }
+`;
+
+export const Button = styled.button`
+  padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
+
+  color: #fff;
+  font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+  border-radius: 4px;
+  background: ${({ primary }) => (primary ? '#4b59f7' : '#0467fb')};
+
+  &:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    background: ${({ primary }) => (primary ? '#0467fb' : '#4b59f7')};
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
   }
 `;
