@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 import Routes from './routes';
-import { Navbar } from './components';
+import { Navbar, Footer } from './components';
 
 import GlobalStyles from './styles/global';
 
@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes />
+      <Footer />
       <GlobalStyles />
     </BrowserRouter>
   );
