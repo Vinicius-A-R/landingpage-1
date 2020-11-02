@@ -2,7 +2,7 @@ import React from 'react';
 
 // import { Container } from './styles';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
-import { InfoSection } from '../../components';
+import { InfoSection, Pricing } from '../../components';
 
 function Homepage() {
   return (
@@ -10,6 +10,7 @@ function Homepage() {
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjTwo} />
+      <Pricing />
       <InfoSection {...homeObjFour} />
     </div>
   );
