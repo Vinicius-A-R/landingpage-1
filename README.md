@@ -2,7 +2,7 @@
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-React JS Web Application using React Hooks, Redux and Firebase to sign or sign up in this application web.
+React JS Web Application
 
 - [x] Responsive
 - [x] Homepage
@@ -11,13 +11,19 @@ React JS Web Application using React Hooks, Redux and Firebase to sign or sign u
 - [x] Sign up page
 - [x] Footer
 
+### Dependencies
+
+- react-icons
+- react-router-dom
+- styled-components
+
 ## Mobile
 
-<img src="https://github.com/Vinicius-A-R/landingpage-1/blob/main/src/assets/mobile.gig?raw=true" width="240px" />
+<img src="https://github.com/Vinicius-A-R/landingpage-1/blob/main/src/assets/mobile.gif?raw=true" width="240px" />
 
 ## Desktop
 
-<img src="https://github.com/Vinicius-A-R/landingpage-1/blob/main/src/assets/mobile.gig?raw=true" width="1200px" />
+<img src="https://github.com/Vinicius-A-R/landingpage-1/blob/main/src/assets/mobile.gif?raw=true" width="1200px" />
 
 ## How to start
 
