@@ -8,6 +8,8 @@ export const PricingSection = styled.div`
 
   padding: 100px 0 160px;
   background-color: #4b59f7;
+
+  overflow-x: hidden;
 `;
 
 export const PricingWrapper = styled.div`
