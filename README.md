@@ -23,7 +23,7 @@ React JS Web Application
 
 ## Desktop
 
-<img src="https://github.com/Vinicius-A-R/landingpage-1/blob/main/src/assets/mobile.gif?raw=true" width="1200px" />
+<img src="https://github.com/Vinicius-A-R/landingpage-1/blob/main/src/assets/desktop.gif?raw=true" width="1200px" height="720px" />
 
 ## How to start
 
